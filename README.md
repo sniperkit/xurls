@@ -1,14 +1,14 @@
 # xurls
 
-[![GoDoc](https://godoc.org/mvdan.cc/xurls?status.svg)](https://godoc.org/mvdan.cc/xurls)
+[![GoDoc](https://godoc.org/github.com/sniperkit/xurls?status.svg)](https://godoc.org/github.com/sniperkit/xurls)
 [![Travis](https://travis-ci.org/mvdan/xurls.svg?branch=master)](https://travis-ci.org/mvdan/xurls)
 
 Extract urls from text using regular expressions.
 
-	go get -u mvdan.cc/xurls
+	go get -u github.com/sniperkit/xurls/...
 
 ```go
-import "mvdan.cc/xurls"
+import "github.com/sniperkit/xurls/pkg"
 
 func main() {
 	xurls.Relaxed().FindString("Do gophers live in golang.org?")
@@ -22,7 +22,7 @@ Note that the funcs compile regexes, so avoid calling them repeatedly.
 
 #### cmd/xurls
 
-	go get -u mvdan.cc/xurls/cmd/xurls
+	go get -u github.com/sniperkit/xurls/cmd/xurls
 
 ```shell
 $ echo "Do gophers live in http://golang.org?" | xurls

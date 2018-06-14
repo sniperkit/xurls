@@ -6,7 +6,7 @@ package xurls_test
 import (
 	"fmt"
 
-	"mvdan.cc/xurls"
+	xurls "github.com/sniperkit/xurls/pkg"
 )
 
 func Example() {
