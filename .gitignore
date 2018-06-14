@@ -9,7 +9,7 @@ vendor/**
 
 _examples
 
-cmd/glod/glod
+cmd/xurls/xurls
 
 _examples/simple/glod*
 _examples/simple/simple*
@@ -67,6 +67,3 @@ lastupdate.tmp
 .DS_Store
 tags
 
-!cmd/glod/cmd
-!cmd/glod/cmd/*.go
-!cmd/glod/cmd/glod.go
